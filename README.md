@@ -81,7 +81,7 @@ After ensuring the content, then you can pre-train your model by the command:
 >sh pre_train.sh
 
 # Fine-Tuning & Evaluation & Save Model
-When you ready to fine-tune the model or do other, you should open this file first:
+When you ready to fine-tune the model, you should open this file first:
 file run_fine_tune.sh, then you should change the parameters according to your needs.
 - do_eval and do_save are used to indicate if you want to evaluate the model or save the final model.  
 - If the do_save is True then you should specify the location to save the final model.
