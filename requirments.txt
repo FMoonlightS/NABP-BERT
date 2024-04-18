@@ -1,0 +1,12 @@
+=======================================
+Library                    Version                   
+=======================================
+h5py                      2.9.0         
+hdf5                      1.10.4        
+keras                     2.2.4         
+numpy                     1.17.4        
+scikit-learn              0.22          
+scipy                     1.4.1         
+six                       1.13.0        
+tensorflow                1.15.0        
+tensorflow-gpu            2.1.0                   

@@ -1,0 +1,12 @@
+python run_pretraining.py \
+	--input_file=./dataAfterPreProcessing/PreTrainDataset/PretrainData_Final.tfrecord \
+	--output_dir=./model/3kmer_model/num_hidden_layers_10/num_attention_heads_8/ \
+	--do_train=True \
+	--do_eval=True \
+	--bert_config_file=./bert_config_3.json \
+	--train_batch_size=8 \
+	--max_seq_length=512 \
+	--max_predictions_per_seq=20 \
+	--num_train_steps=1000000 \
+	--num_warmup_steps=10000 \
+	--learning_rate=2e-5
